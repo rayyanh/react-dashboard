@@ -13,8 +13,8 @@ function App() {
       <br />
       <div className="container">
         <div className="row">
-          <TodoCol />
           <CryptoTrack />
+          <TodoCol />
         </div>
       </div>
     </div>

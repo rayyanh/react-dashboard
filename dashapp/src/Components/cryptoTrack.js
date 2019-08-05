@@ -22,19 +22,22 @@ export default class CryptoTrack extends Component {
   }
 
   render() {
-    var leftAlign = {
-      display: "inline-block",
-      textAlign: "left"
-    };
+    var x = [
+      <img className="imgSize" src={require("./bitcoin.svg")} />,
+      <img className="imgSize" src={require("./etherium.svg")} />,
+      <img className="imgSize" src={require("./ripple.svg")} />
+    ];
+    var i = 1;
     return (
-      <div className="col-lg-8 border border-success rounded">
-        <p>Crypto Tracker</p>
-        <div className="border pad text-left">
+      <div className="col-lg-3 border border-success rounded boxThing">
+        <h3 className="funTitle">Crypto Tracker</h3>
+        <div className=" pad text-left ">
           {Object.keys(this.state.cryptos).map(key => (
             <div>
-              <p>
-                {key} ${this.state.cryptos[key].USD}
+              <p className="crypto-container">
+                {x[i - 1]} {i++} . {key} ${this.state.cryptos[key].USD}
               </p>
+              <div />
             </div>
           ))}
         </div>

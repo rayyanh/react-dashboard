@@ -1,5 +1,27 @@
+
+.boxThing{
+  background: #f1f1f1;
+}
+.crypto-container {
+  background:white;
+  margin: 0 auto 10px auto;
+  padding: 1em;
+  box-shadow: 1px 1px 0 lightgrey;
+}
+
+.funTitle {
+  background:white;
+  margin: 5% auto 10px auto;
+  padding: 0.5em;
+  box-shadow: 1px 1px 0 lightgrey;
+}
+
+/*  */
+.imgSize{
+  width: 15%;
+}
 .pad{
-  margin-bottom: 1%;
+  margin-bottom: 3%;
   padding-left: 1%;
 }
 
