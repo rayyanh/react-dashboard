@@ -6,7 +6,7 @@ export default class TodoCol extends Component {
     return (
       <div className="col-lg border border-primary rounded">
         <h3 className="funTitle">Todo List</h3>
-        <div className="container" style={{ paddingBottom: "10%" }}>
+        <div className="container">
           <div className="container">
             <TodoList />
           </div>

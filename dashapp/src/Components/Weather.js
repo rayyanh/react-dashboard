@@ -6,12 +6,7 @@ export default class Weather extends Component {
     return (
       <div className="col-lg-3 border border-warning rounded ">
         <br />
-        <ReactWeather
-          forecast="today"
-          apikey="KEY"
-          type="city"
-          city="Seattle"
-        />
+        <ReactWeather forecast="today" apikey="" type="city" city="Seattle" />
         <br />
       </div>
     );
