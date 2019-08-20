@@ -1,4 +1,6 @@
-
+.noBorder{
+  border: 0px;
+}
 .boxThing{
   background: #f1f1f1;
 }
