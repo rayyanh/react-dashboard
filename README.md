@@ -1,2 +1,2 @@
 # react-dashboard
-A dashboard created using React.js with the utilization of Google APIs
+A dashboard created using React.js with the utilization of various APIs
